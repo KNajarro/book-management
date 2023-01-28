@@ -6,6 +6,7 @@ import BooksList from './components/BooksList.jsx';
 
 export const App = () => (
   <div className='container is-fluid'>
+    <br />
     <h1 className='title has-text-centered has-text-weight-bold	'>Control de Libros</h1>
     <AddNewBook />
     <BooksList />
